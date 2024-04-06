@@ -464,14 +464,14 @@ h6 {
   color: var(--secondary-color);
   margin: 20px 0 0 0;
   font-size: 24px;
-  font-weight: 300;
+  font-weight: 400;
   font-family: "Poppins", sans-serif;
 }
 
 #hero p span {
   color: var(--tertiary-color);
   letter-spacing: 1px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 #hero .social-links {
