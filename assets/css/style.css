@@ -5,7 +5,7 @@
 :root {
   --primary-color: #272829;
   --secondary-color:  #fff;
-  --tertiary-color: #0cec26d2;
+  --tertiary-color: #26b01c;
 }
 
 body {
@@ -425,7 +425,7 @@ h6 {
   font-size: 14px;
   font-weight: 500;
   display: inline-block;
-  background: #23f53f4a;
+  background: #00ff112f;
   color: var(--secondary-color);
   border-radius: 20px;
   padding: 9px 15px;
@@ -444,7 +444,7 @@ h6 {
 
 /* #hero:before {
   content: "";
-  background: rgba(255, 255, 255, 0.411);
+  background: rgba(255, 255, 255, 0.273);
   position: absolute;
   bottom: 0;
   top: 0;
