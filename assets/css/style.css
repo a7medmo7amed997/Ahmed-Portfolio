@@ -418,8 +418,6 @@ h6 {
   color: var(--secondary-color);
 }
 
-
-
 .cv {
   font-family: sans-serif;
   font-size: 14px;
@@ -1351,7 +1349,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: var(--tertiary-color);
+  background: #575f588d;
   color: var(--secondary-color);
   line-height: 1;
   padding: 8px 0;
