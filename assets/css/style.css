@@ -651,14 +651,14 @@ section {
 .skills .table td {
   padding: 8px; /* Decreased padding for tighter layout */
   border: 1px solid var(--primary-color);
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .skills .table th {
   background-color: var(--primary-color);
   font-family: "Poppins", sans-serif;
   font-weight: bold;
-  font-size: 13px;
+  font-size: 14px;
   text-align: left;
   color: var(--secondary-color);
 }
