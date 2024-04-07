@@ -602,7 +602,7 @@ section {
 --------------------------------------------------------------*/
 .facts .count-box {
   padding: 30px 30px 25px 30px;
-  margin-top: 30px;
+  margin-top: 0px;
   width: 100%;
   position: relative;
   text-align: center;
@@ -642,26 +642,46 @@ section {
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
-.skills .progress {
-  height: 40px;
-  display: block;
-  background: none;
-  border-radius: 0;
+.skills .table {
+  width: 100%;
+  border-collapse: collapse;
 }
 
-.skills .progress .skill {
-  padding: 10px 0;
-  margin: 0;
-  display: block;
-  font-weight: 400;
+.skills .table th,
+.skills .table td {
+  padding: 8px; /* Decreased padding for tighter layout */
+  border: 1px solid var(--primary-color);
+  font-size: 0.9em; /* Smaller font size */
+}
+
+.skills .table th {
+  background-color: var(--primary-color);
   font-family: "Poppins", sans-serif;
-  font-size: 14px;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: left;
   color: var(--secondary-color);
 }
 
-.skills .progress .skill .val {
-  float: right;
-  font-style: normal;
+.skills .table td {
+  background-color: var(--primary-color);
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+  color: var(--secondary-color);
+}
+
+.skills .table ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills .table ul li {
+  margin-bottom: 10px; /* Adjusted margin for tighter spacing */
+}
+
+.skills .table ul li:before {
+  content: "•";
+  margin-right: 5px;
 }
 
 /*--------------------------------------------------------------
